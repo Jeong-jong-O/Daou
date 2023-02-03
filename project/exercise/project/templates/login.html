@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAOU人</title>
+    <link
+        rel="shortcut icon"
+        type="image⁄x-icon"
+        href="../static/img/daou_logo2.png"
+    />
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/login.css">
+</head>
+<body>
+    <div class="login">
+        <h1 class="login-title">
+            <img
+              src="../static/img/daou_logo.png"
+              alt="daou_logo"
+              class="login-logo"
+            />
+            <span class="login-description">끊임 없는 변화와 혁신을 추구하는 다우기술입니다.</span>
+        </h1>
+        <form action="/project" class="email-form" method = 'post'>
+            <label for="email">사원번호</label>
+            <input type="id" id="login" name='login' placeholder="사번을 입력해주세요.">
+            <div class="login-modal__body-buttons">
+                <button type="submit" class="login-modal__body-button-email">
+                   사원번호로 계속하기
+                </button>
+            </div>
+        </form>
+        <span class="caution_msg">{{caution_msg}}</span>
+    </div>
+</body>
+</html>

@@ -1,0 +1,134 @@
+.recruitment-announcement {
+  padding: 0 20px;
+}
+
+.employee {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.employee img {
+  width: 100%;
+  border-radius: 30px;
+  border: 1px solid #eee;
+}
+
+.employee img:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.employee-name {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 25px 0px 7px;
+}
+
+.employee-name:hover {
+  text-decoration: underline;
+}
+
+.employee-aspiration {
+  font-size: 18px;
+  width: 100%;
+  margin: 10px 0px 40px;
+  line-height: 25px;
+}
+
+.email-form {
+  margin: 20px 0 0;
+  font-weight: bold;
+}
+
+.email-form label {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.email-form input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #e1e2e3;
+  background-color: #fff;
+  font-size: 15px;
+  color: #333;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.email-form input:hover {
+  background-color: #eee;
+  transition: all 0.3s;
+}
+
+.message-button {
+  width: 100%;
+  border-radius: 15px;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  border: 0;
+  background-color: #36f;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+
+.message-button:hover {
+  opacity: 0.8;
+  transition: all 0.3s;
+}
+
+.email-notice {
+  display: block;
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+
+.caution_msg {
+  display: block;
+  margin-bottom: 50px;
+  font-weight: 100;
+  font-size: 13px;
+  color: red;
+}
+
+.postit {
+  width: 100%;
+  max-width: 500px;
+  /* height: 300px; */
+  background-color: #70a7d9;
+  color: white;
+  font: 15px;
+  font-weight: 600;
+  box-shadow: 5px 5px 5px grey;
+  margin-bottom: 100px;
+  border-radius: 3px;
+}
+
+.postit li {
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  padding: 15px;
+  line-height: 23px;
+  word-break: break-all;
+  box-sizing: border-box;
+}
+
+#text {
+  width: 470px;
+  height: 50px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 5px;
+  border: 1px solid #e1e2e3;
+  background-color: #fff;
+  font-size: 15px;
+  color: #333;
+}
